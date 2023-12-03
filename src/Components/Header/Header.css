@@ -1,0 +1,24 @@
+.header-container {
+    background: linear-gradient(97.53deg, rgb(246, 135, 179) 5.6%, rgb(123, 97, 255) 59.16%, rgb(22, 209, 161) 119.34%);
+}
+
+
+.header-item {
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 38px;
+    gap: 8px;
+}
+
+.header-item img {
+    width: 2rem;
+    height: 2rem;
+
+    align-items: center;
+}
