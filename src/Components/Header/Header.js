@@ -1,11 +1,15 @@
-import React from 'react'
 import "./Header.css";
 import Navbar from '../Navbar/Navbar';
 import { FaArrowRight } from "react-icons/fa6";
 import HeroSection from '../HeroSection/HeroSection';
+import Table from '../Table/Table';
+import Button from "../Button/Button";
+import Footer from "../Footer/Footer";
+
 
 
 function Header() {
+
     return (
         <>
             <div className='header-container'>
@@ -21,6 +25,10 @@ function Header() {
             </div>
             <Navbar />
             <HeroSection />
+            <Table />
+            <Button className="view-more-button">View More</Button>
+            <Footer />
+
         </>
     )
 }
