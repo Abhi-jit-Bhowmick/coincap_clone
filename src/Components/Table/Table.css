@@ -1,5 +1,5 @@
 .table-container {
-    width: 70%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -9,7 +9,7 @@
     background-color: white;
     border-radius: 4px;
     color: black;
-    width: 70%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 5px 5px 5px 5px rgba(135, 135, 135, 0.3);
@@ -31,7 +31,34 @@ table {
     width: 100%;
 }
 
+.coin-image {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.coin-image img {
+    width: 30px;
+    height: 30px;
+}
+
+.coin-description {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+
 th,
 td {
     padding: 15px;
+}
+
+.loading {
+    display: block;
+    align-items: center;
+}
+
+.coin-description span {
+    color: #c8c8c8;
+    font-size: small;
 }

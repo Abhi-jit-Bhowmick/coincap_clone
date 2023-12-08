@@ -9,7 +9,56 @@
 
 .footer-items-1st-row {
     padding: 42px;
-    width: 100;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     justify-content: space-between;
+}
+
+.footer-items-2nd {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    gap: 30px;
+
+}
+
+/* .items-2nd-2nd-para h3 {
+    margin-top: 10px;
+} */
+
+.footer h3 {
+    color: white;
+    margin-bottom: 10px;
+    padding: 2px;
+}
+
+.footer p {
+    color: white;
+    opacity: 0.5;
+    /* margin: 5px; */
+    padding: 2px;
+    cursor: pointer;
+
+}
+
+.footer p:hover {
+    color: white;
+    opacity: 1;
+}
+
+.footer-icon {
+    color: white;
+    opacity: 0.5;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+
+}
+
+.footer-icon:hover {
+    color: white;
+    opacity: 1;
 }

@@ -1,0 +1,13 @@
+.view-more-button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+
+/* .view-more-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+} */
