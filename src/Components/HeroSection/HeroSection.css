@@ -20,4 +20,14 @@
     font-weight: 600;
     font-size: 0.9rem;
     color: white;
+    line-height: 30px;
+    ;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .hero-items-container {
+        display: none;
+    }
 }

@@ -1,14 +1,19 @@
 .navbar-container {
     height: 4em;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     position: sticky;
     top: 0;
+    /* align-items: center; */
+    align-items: center;
 }
 
 .navbar-menu {
     height: 4em;
     /* background-color: aqua; */
     align-items: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     justify-content: space-between;
 }
@@ -21,7 +26,7 @@
 .navbar-menu-items img {
     width: 6em;
     height: 4em;
-    overflow: auto;
+    /* overflow: auto; */
 }
 
 .navbar-menu-items li {
@@ -32,10 +37,60 @@
     padding-left: 1.14286em
 }
 
-@media screen and (min-width: 768px) {
+.navbar-menu-mobile-items {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px;
+
+}
+
+.navbar-menu-mobile-items li img {
+    width: 6em;
+    height: 3.5em;
+}
+
+.navbar-menu-mobile-items li {
+    list-style: none;
+
+}
+
+.navbar-menu-mobile {
+    display: none;
+
+}
+
+.mobile-items-icon {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+/* Navbar-sidebar on mobile view */
+.navbar-sidebar-container {
+    width: 50vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-y: hidden;
+    overflow: hidden;
+    /* transition: 0.9s; */
+}
+
+
+@media screen and (max-width: 768px) {
     .navbar-menu {
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
+        display: none;
+    }
+
+    .navbar-menu-mobile {
+        width: 100%;
+        display: flex;
+        height: 4em;
+        align-items: center;
     }
 }

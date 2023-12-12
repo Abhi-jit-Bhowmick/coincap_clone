@@ -14,6 +14,17 @@
     margin-right: auto;
     display: flex;
     justify-content: space-between;
+
+}
+
+.footer-on-mobile {
+    padding: 42px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 8rem;
 }
 
 .footer-items-2nd {
@@ -28,13 +39,15 @@
     margin-top: 10px;
 } */
 
-.footer h3 {
+.footer,
+.footer-mobile h3 {
     color: white;
     margin-bottom: 10px;
     padding: 2px;
 }
 
-.footer p {
+.footer,
+p {
     color: white;
     opacity: 0.5;
     /* margin: 5px; */
@@ -43,7 +56,8 @@
 
 }
 
-.footer p:hover {
+.footer,
+p:hover {
     color: white;
     opacity: 1;
 }
@@ -61,4 +75,15 @@
 .footer-icon:hover {
     color: white;
     opacity: 1;
+}
+
+.xyz {
+    display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    .footer-items-1st-row {
+        display: none;
+    }
 }

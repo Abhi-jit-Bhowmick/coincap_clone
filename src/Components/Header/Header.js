@@ -11,13 +11,10 @@ function Header() {
                     <div>
                         <img src='https://cryptologos.cc/logos/fox-token-fox-logo.png?v=029' alt='shapeshiftLogo' />
                     </div>
-
                     <div>Buy, sell, & swap your favorite assets. No KYC. No added fees. Decentralized.  </div>
-
                     <div><FaArrowRight /></div>
                 </div>
             </div>
-
         </>
     )
 }

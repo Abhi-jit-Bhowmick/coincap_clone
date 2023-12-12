@@ -9,14 +9,18 @@
     background-color: white;
     border-radius: 4px;
     color: black;
-    width: 80%;
+    /* width: 80%;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; */
     box-shadow: 5px 5px 5px 5px rgba(135, 135, 135, 0.3);
     position: relative;
+    overflow: auto;
     top: -7em;
-    overflow-x: hidden;
     padding: 10px;
+}
+
+.color-red {
+    color: rgb(250, 14, 14);
 }
 
 table,
@@ -24,6 +28,14 @@ td,
 th {
     border-bottom: 1px solid #ddd;
     text-align: center;
+    color: black;
+    font-size: small;
+}
+
+th {
+    color: rgba(135, 135, 135, 1);
+    font-size: small;
+    font-weight: lighter;
 }
 
 table {
@@ -61,4 +73,14 @@ td {
 .coin-description span {
     color: #c8c8c8;
     font-size: small;
+}
+
+@media screen and (max-width: 768px) {
+    .table-container {
+        width: 100%;
+    }
+
+    .hide-in-mobile {
+        display: none;
+    }
 }

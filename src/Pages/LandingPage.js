@@ -43,10 +43,9 @@ function LandingPage() {
         <>
             <Header />
             <Navbar />
-            <HeroSection />
-            <Table data={apidata} >
-                {/* <Button handleClick={onButtonClick}>View More</Button> */}
-            </Table>
+            <HeroSection >
+            </HeroSection>
+            <Table data={apidata} />
             <Button handleClick={onButtonClick}>View More</Button>
             <Footer />
         </>
